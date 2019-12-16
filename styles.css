@@ -6,9 +6,19 @@ div#page-wrap {
   width: 900px;
   margin: 0 auto;
 }
+div.heart {
+  font-size: 55px;
+  text-shadow: none;
+}
+del.red-text {
+  font-size: 45px;
+  color: black;
+  text-shadow: none;
+}
 h1 {
   color: #f5e371;
   text-shadow: 2px 4px #db7a35;
+  font-size: 50px;
 }
 img {
   border-style: double;
@@ -18,10 +28,19 @@ img {
   height: 200px;
   width: 360px;
 }
+p {
+  font-family: monospace;
+  color: #f5e371;
+  font-size: 18px;
+}
 hr {
 width: 10%;
   border-style: dashed none dashed none;
   border-width: 5px;
   border-top-color: #3564db;
   border-bottom-color: #db7a35;
+}
+p:hover {
+  background-color: #f5e371;
+  color: teal;
 }
