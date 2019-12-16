@@ -1,0 +1,27 @@
+body {
+  background-color: teal;
+  text-align: center;
+}
+div#page-wrap {
+  width: 900px;
+  margin: 0 auto;
+}
+h1 {
+  color: #f5e371;
+  text-shadow: 2px 4px #db7a35;
+}
+img {
+  border-style: double;
+  border-color: #f5e371;
+  border-radius: 40% 1% 40% 1%;
+  border-width: thick;
+  height: 200px;
+  width: 360px;
+}
+hr {
+width: 10%;
+  border-style: dashed none dashed none;
+  border-width: 5px;
+  border-top-color: #3564db;
+  border-bottom-color: #db7a35;
+}
